@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:radial-gradient(rgb(235, 235, 235), rgb(38, 163, 212), rgb(17, 17, 204));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+blockquote{
+    height: 250px;
+    width: 500px;
+    border-radius: 25px;
+    background-color: rgb(27, 27, 27);
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+
+button{
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    height: 65px;
+    width: 160px;
+    border-radius: 50px;
+    border: none;
+    transition-duration: 700ms;
+}
+
+button:hover{
+    transition-duration: 700ms;
+    transform: scale(1.15);
+    cursor: pointer;
+}
